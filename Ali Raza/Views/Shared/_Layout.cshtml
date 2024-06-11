@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Store</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    
+   
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Sports Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Ali Sports Store. All rights reserved.</p>
+            <div class="social">
+                <a href="~/assets/fb.png"> <img src="~/assets/fb.png"></a>
+                <a href="~/assets/twiter.webp"> <img src="~/assets/twiter.webp"></a>
+                <a href="~/assets/insta.jpeg"> <img src="~/assets/insta.jpeg"></a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+

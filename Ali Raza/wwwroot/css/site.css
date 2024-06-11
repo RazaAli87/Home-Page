@@ -1,0 +1,186 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .logo {
+        font-size: 24px;
+        margin: 0;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+            nav ul li a:hover {
+                color: #ff0000;
+            }
+
+.hero {
+    background: url('~/assets/yoga.jpeg') no-repeat center center/cover;
+    color: rgb(110, 18, 18);
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 10;
+}
+
+    .hero .btn {
+        background-color: #ff0000;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        text-align:center;
+        
+    }
+
+        .hero .btn:hover {
+            background-color: #cc0000;
+            
+        }
+
+.about,
+.categories,
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    margin: 20px 0;
+}
+
+    .about .container,
+    .categories .container,
+    .contact .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .categories .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .categories .category {
+        flex: 1;
+        margin: 10px;
+        max-width: 200px;
+    }
+
+        .categories .category img {
+            background: url(background-image: url('../assets/soccer.webp');
+            background: url(background-image: url('../assets/basketball.jpeg');
+            background: url(background-image: url('../assets/tennis.jpeg');
+            background: url(background-image: url('../assets/running.png');
+            background: url(background-image: url('../assets/yoga.jpeg');
+            background: url(background-image: url('../assets/swimm.jpg');
+            width: 100%;
+            border-radius: 5px;
+             background-size:cover;
+    background-repeat:no-repeat;
+        }
+
+        .categories .category h3 {
+            margin-top: 10px;
+        }
+
+    .contact form {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .contact .form-group {
+        margin-bottom: 15px;
+    }
+
+        .contact .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact .form-group input,
+        .contact .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+    .contact .btn {
+        background-color: #ff0000;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .contact .btn:hover {
+            background-color: #cc0000;
+        }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+    footer .social {
+        margin-top: 10px;
+    }
+
+        footer .social a {
+            margin: 0 10px;
+            display: inline-block;
+        }
+
+            footer .social a img {
+                width: 20px;
+                transition: transform 0.3s;
+            }
+
+            footer .social a:hover img {
+                transform: scale(1.1);
+            }
